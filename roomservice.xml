@@ -2,22 +2,25 @@
 <manifest>
   <remote name="peridot"
            fetch="https://github.com/PeridotSupremacy"
-           revision="lineage-23.0" />
+           revision="lineage-23.2" />
 
-  <remote name="Soverzion-HQ"
-           fetch="https://gitea.com/Soverzion-HQ" />
+  <remote name="NoPrincessHere"
+           fetch="https://gitlab.com/NoPrincessHere" />
+
+  <remote name="PixelOS-Devices"
+           fetch="https://github.com/PixelOS-Devices"  />
 
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="peridot" />
 
-  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="peridot" />
+  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="peridot" revision="helikon-16" />
   <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" remote="peridot" />
 
   <project path="kernel/xiaomi/sm8635" name="kernel_xiaomi_sm8635" remote="peridot" />
   <project path="kernel/xiaomi/sm8635-modules" name="kernel_xiaomi_sm8635-modules" remote="peridot" />
   <project path="kernel/xiaomi/sm8635-devicetrees" name="kernel_xiaomi_sm8635-devicetrees" remote="peridot" />
 
-  <project path="device/xiaomi/peridot-miuicamera" name="device_xiaomi_peridot-miuicamera" revision="14-leica" remote="peridot" />
-  <project path="vendor/xiaomi/peridot-miuicamera" name="vendor_xiaomi_peridot-miuicamera" revision="14-leica" remote="Soverzion-HQ" />  
+  <project path="device/xiaomi/peridot-miuicamera" name="android_device_xiaomi_peridot-miuicamera" revision="sixteen-qpr2" remote="PixelOS-Devices" />
+  <project path="vendor/xiaomi/peridot-miuicamera" name="proprietary_vendor_xiaomi_peridot-miuicamera" revision="sixteen-qpr2" remote="NoPrincessHere" />  
 
   <project path="vendor/lineage-priv" name="vendor_lineage-priv" revision="main" remote="peridot" />  
 
