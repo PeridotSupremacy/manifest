@@ -1,7 +1,7 @@
 Initialize after init repo roms
 
 ```
-git clone https://github.com/PeridotSupremacy/manifest.git -b lineage-23.2 .repo/local_manifests/
+git clone https://github.com/PeridotSupremacy/manifest.git -b infinity-16 .repo/local_manifests/
 ```
 
 And sync repo
